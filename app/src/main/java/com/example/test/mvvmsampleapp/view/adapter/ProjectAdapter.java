@@ -1,17 +1,16 @@
 package com.example.test.mvvmsampleapp.view.adapter;
 
-import androidx.databinding.DataBindingUtil;
-import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.DiffUtil;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
+import androidx.annotation.Nullable;
+import androidx.databinding.DataBindingUtil;
+import androidx.recyclerview.widget.DiffUtil;
+import androidx.recyclerview.widget.RecyclerView;
 import com.example.test.mvvmsampleapp.R;
 import com.example.test.mvvmsampleapp.databinding.ProjectListItemBinding;
 import com.example.test.mvvmsampleapp.service.model.Project;
 import com.example.test.mvvmsampleapp.view.callback.ProjectClickCallback;
-
 import java.util.List;
 import java.util.Objects;
 
